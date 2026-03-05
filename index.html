@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Swain | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Cursor glow effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SS</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#extras">Extras</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-bg"></div>
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-image-wrap">
+        <div class="hero-image-frame">
+          <img src="WhatsApp%20Image%202026-03-05%20at%2010.23.47%20AM.jpeg" alt="Shubham Swain" class="hero-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="hero-image-placeholder" style="display:none;">SS</div>
+        </div>
+      </div>
+      <h1 class="hero-title">
+        <span class="line">Hi, I'm</span>
+        <span class="line name">Shubham Swain</span>
+      </h1>
+      <p class="hero-subtitle">Computer Science Engineer · Full Stack Developer · Problem Solver</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title" data-aos>About Me</h2>
+      <div class="about-grid">
+        <p class="about-text" data-aos>
+          B.Tech in Computer Science from Siksha 'O' Anusandhan University with a strong foundation in Data Structures, Algorithms, and software development. Passionate about building scalable applications and solving real-world problems through technology. Experienced in full-stack development with Spring Boot, machine learning, and cloud technologies.
+        </p>
+        <div class="about-quick">
+          <div class="quick-item" data-aos><strong>Location</strong> Bhubaneswar, Odisha, India</div>
+          <div class="quick-item" data-aos><strong>Focus</strong> Backend & ML</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title" data-aos>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Siksha 'O' Anusandhan University (ITER)</h3>
+            <span class="timeline-meta">Bachelor of Technology in Computer Science and Engineering · CGPA: 8.96</span>
+            <span class="timeline-loc">Bhubaneswar, Odisha, India · 2025</span>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Sri Chaitanya Educational Institution</h3>
+            <span class="timeline-meta">12th Grade · 75.4%</span>
+            <span class="timeline-loc">Vizag, India · 2021</span>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>D.A.V Public School</h3>
+            <span class="timeline-meta">10th Grade · 75.6%</span>
+            <span class="timeline-loc">Berhampur, India · 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-aos>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">{}</span>
+          <h4>Programming</h4>
+          <p>Java, Python</p>
+        </div>
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">◇</span>
+          <h4>Frameworks</h4>
+          <p>Spring Boot, Hibernate</p>
+        </div>
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">▣</span>
+          <h4>Database</h4>
+          <p>MySQL</p>
+        </div>
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">◈</span>
+          <h4>Core Subjects</h4>
+          <p>DSA, DBMS, OS, Computer Networking</p>
+        </div>
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">☁</span>
+          <h4>Cloud</h4>
+          <p>AWS (Current Learning)</p>
+        </div>
+        <div class="skill-card" data-aos>
+          <span class="skill-icon">⚙</span>
+          <h4>Tools</h4>
+          <p>Git, Postman</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title" data-aos>Technical Experience</h2>
+      <div class="exp-list">
+        <article class="exp-card" data-aos>
+          <div class="exp-header">
+            <h3>Urban Garbage Management System</h3>
+            <span class="exp-badge">Smart Odisha Hackathon</span>
+            <span class="exp-date">April 2023</span>
+          </div>
+          <ul class="exp-points">
+            <li>Developed a multi-role Garbage Management System using PHP, MySQL, HTML, CSS and JavaScript, enabling 4 stakeholder portals (Government, Municipality Officer, Worker, Public).</li>
+            <li>Implemented complaint submission, task assignment, and real-time status tracking, handling 100+ concurrent records with secure role-based access.</li>
+            <li>Designed dashboards for each stakeholder, improving transparency and reducing manual tracking efforts.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title" data-aos>Projects</h2>
+      <div class="project-list">
+        <article class="project-card" data-aos>
+          <div class="project-header">
+            <h3>Machine Learning-Based Dynamic Pricing for Perishable Products</h3>
+            <span class="project-tag">Final Year Project</span>
+            <span class="project-date">June 2025</span>
+          </div>
+          <ul class="project-points">
+            <li>Developed a machine learning-based dynamic pricing system to optimize product prices based on demand patterns and expiry timelines, minimizing seller losses.</li>
+            <li>Built predictive models to analyze customer purchasing behavior and recommend optimal discount strategies for perishable goods.</li>
+            <li>Performed data preprocessing, feature engineering, and model evaluation using Python, Pandas, Scikit-learn, and visualization techniques for data-driven decision making.</li>
+          </ul>
+        </article>
+        <article class="project-card" data-aos>
+          <div class="project-header">
+            <h3>Smart Health Way</h3>
+            <span class="project-tag">Academic Project</span>
+            <span class="project-date">Jan 2025</span>
+          </div>
+          <ul class="project-points">
+            <li>Developed a multi-role Healthcare Management System using Spring Boot, Spring Security, JPA/Hibernate, MySQL, and REST APIs, enabling separate portals for Admin, Doctor, and Patient.</li>
+            <li>Implemented patient registration, secure login with role-based authentication, appointment booking, medical record management, and digital prescription generation.</li>
+            <li>Designed and integrated backend APIs with database operations to efficiently manage users, appointments, and health records with structured and secure data handling.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extras -->
+  <section class="section section-alt" id="extras">
+    <div class="container">
+      <h2 class="section-title" data-aos>Extras</h2>
+      <div class="extras-grid">
+        <div class="extras-block" data-aos>
+          <h4>Extra Curricular</h4>
+          <p><strong>Codex Club, ITER SOA</strong> — Member (Apr 2022 – May 2025)<br>
+          Contributed to coding contests, technical workshops, and collaborative problem-solving sessions to strengthen programming and DSA skills.</p>
+        </div>
+        <div class="extras-block" data-aos>
+          <h4>Sports</h4>
+          <p>Represented district-level cricket tournaments, demonstrating teamwork, leadership, and competitive spirit.</p>
+        </div>
+        <div class="extras-block" data-aos>
+          <h4>Certifications</h4>
+          <p>CSS Certification – HackerRank · AMCAT Certified · GeeksforGeeks Certification in DSA and Java</p>
+        </div>
+        <div class="extras-block" data-aos>
+          <h4>Achievements</h4>
+          <p>4 star in Java on HackerRank · Participated in HackFest 2024 – IIT Dhanbad · Participated in Smart Odisha Hackathon – Government of Odisha</p>
+        </div>
+        <div class="extras-block" data-aos>
+          <h4>Leadership</h4>
+          <p>Class Representative (2021–2025) · Student Coordinator – Codex Club Technical Events (2022–2025) · Member – Career Development Cell (2021–2023)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title" data-aos>Get in Touch</h2>
+      <div class="contact-links" data-aos>
+        <a href="tel:+916371054147" class="contact-item">
+          <span class="contact-icon">📞</span>
+          <span>+91-6371054147</span>
+        </a>
+        <a href="mailto:shubhamswain321@gmail.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <span>shubhamswain321@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/shubham-swain" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">in</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/shubhamswain" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">⌘</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Shubham Swain. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
